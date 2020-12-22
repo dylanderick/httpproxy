@@ -99,12 +99,10 @@ count=`ps -fe|grep squid|grep -v grep`
     if [ "$?" -eq 0 ]
         then
 		echo -e "${OK} ${GreenBG} http代理安装完成 ${Font}"
+		echo -e "${OK} ${GreenBG} 脚本小子晋M联通出品 ${Font}"
     else
         echo -e "${Error} ${RedBG} http代理安装失败 ${Font}"
     fi
-    
-    echo -e "${OK} ${GreenBG} 脚本小子晋M联通出品 ${Font}"
-    sleep 5
 }
 
 httpdaili(){
